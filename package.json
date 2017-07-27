@@ -1,0 +1,30 @@
+{
+	"name": "fetch-wikipedia-page-revision",
+	"description": "Fetch a revision of a Wikipedia page as mobile HTML.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"wikipedia", "wiki", "html", "archive"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/fetch-wikipedia-page-revision",
+	"repository": "derhuerst/fetch-wikipedia-page-revision",
+	"bugs": "https://github.com/derhuerst/fetch-wikipedia-page-revision/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
