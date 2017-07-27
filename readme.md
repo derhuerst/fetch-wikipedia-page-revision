@@ -18,8 +18,17 @@ npm install fetch-wikipedia-page-revision
 ## Usage
 
 ```js
-todo
+const fetchPageRevision = require('fetch-wikipedia-page-revision')
+
+const slug = 'Barack_Obama'
+const revId = 792351024
+
+fetchPageRevision(slug, revId)
+.then(console.log)
+.catch(console.error)
 ```
+
+The [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/promise) will resolve with a string of HTML.
 
 
 ## Contributing
