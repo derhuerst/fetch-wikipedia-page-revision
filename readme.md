@@ -1,5 +1,7 @@
 # fetch-wikipedia-page-revision
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/fetch-wikipedia-page-revision.svg)](https://greenkeeper.io/)
+
 **Fetch a revision of a Wikipedia page as mobile HTML.**
 
 [![npm version](https://img.shields.io/npm/v/fetch-wikipedia-page-revision.svg)](https://www.npmjs.com/package/fetch-wikipedia-page-revision)
